@@ -17,6 +17,7 @@ README.md: This file, offering an overview and instructions for running the proj
 Clone the repository with the following command:
 
 git clone https://github.com/jananikrishnamurthy17/Air-Pollution-Income-Region-Classification.git
+
 Run all cells in Air-Pollution-Income-Region-Classification.ipynb to conduct the analysis.
 
 ## Dataset
@@ -29,6 +30,7 @@ Population Metrics: Urban and rural population distributions.
 ## Classification Targets:
 
 **Income Level**: Categorical variable (low, lower middle, upper middle, high).
+
 **Region**: Categorical variable representing world regions.
 
 ## Methodology
@@ -36,7 +38,9 @@ Data Preprocessing: Cleaned, merged data sources, handled missing values, and en
 
 ## Model Development:
 **Decision Trees**: Used as a base classifier for income and region prediction.
+
 **Ensemble Techniques**: Applied Bagging and Gradient Boosting to improve model performance.
+
 **Hyperparameter Tuning**: Used grid search and cross-validation for optimal parameter settings.
 
 ## Model Evaluation:
@@ -44,7 +48,9 @@ Evaluated models based on accuracy, precision, recall, and feature importance.
 
 ## Results
 **Income Classification**: Achieved an accuracy of 99.92% with Bagging.
+
 **Region Classification**: Achieved an accuracy of 99.7% with Bagging.
+
 **Feature Importance**: Significant predictors included SO₂ emissions, rural population metrics, and organic carbon levels.
 
 ## Conclusion
